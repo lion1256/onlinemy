@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css?family=Maitree');
+
+:root {
+    font-family: 'Maitree';
+}
+
+body,
+html {
+    max-width: 1920px;
+    margin: auto;
+}
+
+nav ul li {
+    display: inline;
+    float: right;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+nav ul li:hover {
+    background-color: #92a8d1;
+    color: black;
+}
+
+nav ul li a {
+    color: white;
+}
+
+nav {
+    background-color: hsla(89, 43%, 51%, 0.3);
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+header {
+    background-image: url("../img/111.jpg");
+    height: 800px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header,
+article,
+footer {
+    text-align: center;
+}
+.text-block { padding: 36px; }
+.text-block .text-block-photo {
+    float: left;
+    margin-right: 36px;
+}
+.text-block .text-block-info {
+    
+}
+
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+#form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    clear: both;
+    padding: 50px;
+    width: 400px;
+    margin: 0 auto;
+}
+#form div {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+#form input, #form textarea {
+    width: 200px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+#form label {
+    display: inline-block;
+    width: 110px;
+    text-align: left;
+}
+#places h1, #links h1 {
+    margin-top: 100px;   
+}
+#places p {
+    margin: 10px 36px;   
+}
+#places img {
+    width: 900px;
+    display: block;
+    margin: 10px auto;
+}
+#links img {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+}
+* {
+    font-family: 'Maitree' !important;
+}
